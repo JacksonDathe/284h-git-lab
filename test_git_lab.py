@@ -22,9 +22,9 @@ class TestGitLab(unittest.TestCase):
         self.assertEqual(add_numbers(-1, 1), 0)
 
     def test_multiply_numbers(self):
-        self.assertEqual(multiply_numbers(2, 3), 6)
-        self.assertEqual(multiply_numbers(-1, 1), -1)
-        
+        self.assertEqual(multiply_numbers(3, 4), 12)
+        self.assertEqual(multiply_numbers(-1, -1), 1)
+
 class TestUtils(unittest.TestCase):
 
     def test_calculate_circle_area(self):
